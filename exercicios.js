@@ -30,6 +30,7 @@ console.log(cardType(5391237890123456));
 console.log(cardType(491236789012345));
 console.log(cardType(4912367890123456));
 console.log(cardType("matheus"));
+
 function validate(number) {
   const numberToCharArray = number.toString().split('');
   const reversedArray = numberToCharArray.reverse();
@@ -43,43 +44,5 @@ function validate(number) {
     }
   })
 }
-//
-//   const v = reversedArray
-//   .filter((_, indice) => indice % 2 !== 0)
-//   .map(item => item * 2)
-//   .reduce((acum, item) => acum + item, 0)
-//
-//   console.log(v);
-//
-//   const tchau = () => console.log('Tchau')
-//
-//   // oi(() => 'oi')
-//   setTimeout(function () {
-//     console.log('oi');
-//   }, 1000);
-//
-//   tchau()
-//
-//
-//   // console.log(sum);
-//
-//   // for (let char in reversedArray){
-//   //   console.log(char);
-//   //   console.log(reversedArray);
-//   //   console.log(reversedArray.indexOf(char));
-//   //   if (reversedArray.indexOf(char) % 2 !== 0){
-//   //    sum += char * 2;
-//   //    console.log(sum);
-//   //  }
-//   // }
-// }
-//
-//
+
 validate(12345);
-// // 54321
-// // for each em x
-// // soma tds
-// // divide = 0 true
-// // !=0 false
-// //
-// // gg
